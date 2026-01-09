@@ -9,10 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cupertino_icons: ^1.0.2
+  # This makes the 3D shapes work
   vector_math: ^2.1.4
+  cupertino_icons: ^1.0.2
 
-# The robot needs this section below to be happy:
 dev_dependencies:
   flutter_test:
     sdk: flutter
