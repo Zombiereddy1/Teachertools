@@ -1,7 +1,7 @@
-name: teacher_pro
-description: Professional Teacher Tool
+name: teacher_tools
+description: Advanced Teacher App
 publish_to: 'none'
-version: 2.0.0
+version: 1.0.0+1
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
@@ -9,9 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # This makes the 3D shapes work
-  vector_math: ^2.1.4
   cupertino_icons: ^1.0.2
+  vector_math: ^2.1.4
 
 dev_dependencies:
   flutter_test:
@@ -20,5 +19,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  
   
